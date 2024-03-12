@@ -4,6 +4,5 @@
   - variables.yaml
   tasks:
   - name: check variables
-    Course="sodfhoehgwoedvdoehfioejhoiew"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
